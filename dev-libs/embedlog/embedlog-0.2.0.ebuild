@@ -11,7 +11,7 @@ SRC_URI="http://distfiles.kurwinet.pl/${PN}/${P}.tar.gz"
 LICENSE="BSD-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="threads"
+IUSE=""
 
 DEPEND=""
 RDEPEND="${DEPEND}"
