@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>michal.lyszczek@bofc.pl</email>
+	</maintainer>
+	<longdescription lang="en">
+		Server application to share files (or program output) from command line using the most basic UNIX tools, like netcat.
+	</longdescription>
+</pkgmetadata>
