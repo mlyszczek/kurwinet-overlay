@@ -20,3 +20,8 @@ pkg_preinst() {
 	enewgroup "${PN}"
 	enewuser "${PN}"
 }
+
+src_install() {
+	newinitd "${FILESDIR}"/kurload.rc6 kurload
+	newconfd "${FILESDIR}"/kurload.confd kurload
+}
