@@ -21,6 +21,7 @@ pkg_preinst() {
 }
 
 src_install() {
+	default
 	newinitd "${FILESDIR}"/kurload.rc6 kurload
 	newconfd "${FILESDIR}"/kurload.confd kurload
 }
