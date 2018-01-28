@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
-inherit autotools
+inherit autotools user
 
 DESCRIPTION="Server to share files from command line with netcat."
 HOMEPAGE="http://kurload.kurwinet.pl"
