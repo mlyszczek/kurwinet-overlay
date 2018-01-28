@@ -17,7 +17,6 @@ DEPEND="dev-libs/embedlog"
 RDEPEND="${DEPEND}"
 
 pkg_preinst() {
-	enewgroup "${PN}"
 	enewuser "${PN}"
 }
 
