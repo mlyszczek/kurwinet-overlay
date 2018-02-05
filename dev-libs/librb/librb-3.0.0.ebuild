@@ -16,18 +16,10 @@ IUSE="threads"
 DEPEND=""
 RDEPEND="${DEPEND}"
 
-src_prepare() {
-	default
-	eautoreconf
-}
-
 src_configure() {
 	econf $(use_enable threads threads)
 }
 
 src_install() {
 	default
-
-	# package installs .pc files
-	find "${D}" -name '*.la' -delete || die
 }
